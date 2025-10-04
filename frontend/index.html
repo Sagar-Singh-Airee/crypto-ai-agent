@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI-powered cryptocurrency market sentiment analysis using 10 years of historical news data to predict price movements in real-time." />
+  <meta name="keywords" content="crypto, AI, sentiment analysis, news, prediction, cryptocurrency, machine learning" />
+  <title>CryptoNews AI - Market Sentiment Analyzer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-animated">
+    <div class="bg-particle"></div>
+    <div class="bg-particle"></div>
+    <div class="bg-particle"></div>
+  </div>
+  
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo" aria-label="CryptoNews AI Home">
+        <div class="logo-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        CryptoNews AI
+      </a>
+      <ul class="nav-links">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#sentiment-analysis">Analysis</a></li>
+        <li><a href="#live-analysis">Live Feed</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#" class="btn btn-primary">Try Now <i class="fas fa-arrow-right"></i></a></li>
+      </ul>
+      <div class="mobile-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>AI-POWERED TECHNOLOGY</span>
+        </div>
+        <h1>
+          <span class="gradient-text">Predict Crypto Markets</span><br>
+          With Advanced Sentiment Analysis
+        </h1>
+        <p>
+          Our deep learning AI analyzes 10 years of historical news data and real-time market signals to predict cryptocurrency price movements with unprecedented accuracy.
+        </p>
+        <div class="hero-buttons">
+          <a href="#demo" class="btn btn-primary" aria-label="Try Analysis Demo">
+            <i class="fas fa-chart-line"></i>
+            Try Analysis Demo
+          </a>
+          <a href="#how-it-works" class="btn btn-secondary" aria-label="Learn How It Works">
+            <i class="fas fa-play-circle"></i>
+            Watch Demo
+          </a>
+        </div>
+        <div class="hero-visual scroll-reveal">
+          <div class="dashboard-preview">
+            <div class="dashboard-header">
+              <div class="dashboard-title">Real-time Sentiment Dashboard</div>
+              <div class="dashboard-controls">
+                <div class="control active">Live</div>
+                <div class="control">24H</div>
+                <div class="control">7D</div>
+              </div>
+            </div>
+            <div class="dashboard-content">
+              <div class="metric-grid">
+                <div class="metric-card">
+                  <div class="metric-title">Market Sentiment</div>
+                  <div class="metric-value positive">Bullish</div>
+                  <div class="metric-change">+5.2%</div>
+                </div>
+                <div class="metric-card">
+                  <div class="metric-title">BTC Prediction</div>
+                  <div class="metric-value">+2.8%</div>
+                  <div class="metric-confidence">87% confidence</div>
+                </div>
+                <div class="metric-card">
+                  <div class="metric-title">News Volume</div>
+                  <div class="metric-value">1,247</div>
+                  <div class="metric-change">+12%</div>
+                </div>
+                <div class="metric-card">
+                  <div class="metric-title">Avg. Accuracy</div>
+                  <div class="metric-value">87.3%</div>
+                  <div class="metric-change">+2.1%</div>
+                </div>
+              </div>
+              <div class="chart-placeholder">
+                <div class="chart-line"></div>
+                <div class="chart-line"></div>
+                <div class="chart-line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-value">87.3%</div>
+            <div class="stat-label">Prediction Accuracy</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">10+ Years</div>
+            <div class="stat-label">Historical Data</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">2.5M+</div>
+            <div class="stat-label">News Articles</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">24/7</div>
+            <div class="stat-label">Real-time Analysis</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="section-header scroll-reveal">
+        <h2>Advanced AI Technology Stack</h2>
+        <p>Our multi-layered AI system processes vast amounts of data to deliver accurate market predictions</p>
+      </div>
+      <div class="steps-container">
+        <div class="step-card scroll-reveal">
+          <div class="step-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="step-number">01</div>
+          <h3>Data Collection</h3>
+          <p>Real-time aggregation from 50+ news sources, social media platforms, and financial APIs with natural language processing.</p>
+        </div>
+        <div class="step-card scroll-reveal">
+          <div class="step-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="step-number">02</div>
+          <h3>Sentiment Analysis</h3>
+          <p>Deep learning models analyze emotional tone, context, and market impact factors with 95% accuracy.</p>
+        </div>
+        <div class="step-card scroll-reveal">
+          <div class="step-icon">
+            <i class="fas fa-chart-network"></i>
+          </div>
+          <div class="step-number">03</div>
+          <h3>Pattern Recognition</h3>
+          <p>Neural networks identify complex patterns across historical data and current market conditions.</p>
+        </div>
+        <div class="step-card scroll-reveal">
+          <div class="step-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <div class="step-number">04</div>
+          <h3>Real-time Prediction</h3>
+          <p>Instant analysis and prediction delivery with adaptive learning from market feedback loops.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sentiment Analysis Section -->
+    <section id="sentiment-analysis" class="sentiment-analysis">
+      <div class="analysis-container">
+        <div class="analysis-content scroll-reveal">
+          <h2>Advanced Sentiment Intelligence</h2>
+          <p>Our AI doesn't just detect positive or negative sentiment—it understands context, sarcasm, urgency, and nuanced financial language that moves markets.</p>
+          <ul class="analysis-features">
+            <li>
+              <i class="fas fa-check-circle"></i>
+              Contextual understanding of financial terminology
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              Multi-language support for global markets
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              Real-time processing of breaking news
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              Cross-asset correlation analysis
+            </li>
+          </ul>
+          <div class="tech-badges">
+            <span class="tech-badge">NLP</span>
+            <span class="tech-badge">Deep Learning</span>
+            <span class="tech-badge">LSTM Networks</span>
+            <span class="tech-badge">BERT</span>
+          </div>
+        </div>
+        <div class="analysis-visual scroll-reveal">
+          <div class="sentiment-chart">
+            <div class="chart-header">
+              <h4>Market Sentiment Overview</h4>
+              <div class="time-filter">
+                <span class="active">24H</span>
+                <span>7D</span>
+                <span>1M</span>
+              </div>
+            </div>
+            <div class="chart-container">
+              <div class="sentiment-bars">
+                <div class="sentiment-bar positive" style="height: 80%">
+                  <div class="bar-label">BTC</div>
+                  <div class="bar-value">+2.4%</div>
+                </div>
+                <div class="sentiment-bar positive" style="height: 65%">
+                  <div class="bar-label">ETH</div>
+                  <div class="bar-value">+1.8%</div>
+                </div>
+                <div class="sentiment-bar negative" style="height: 30%">
+                  <div class="bar-label">ADA</div>
+                  <div class="bar-value">-0.9%</div>
+                </div>
+                <div class="sentiment-bar positive" style="height: 75%">
+                  <div class="bar-label">SOL</div>
+                  <div class="bar-value">+3.2%</div>
+                </div>
+                <div class="sentiment-bar positive" style="height: 60%">
+                  <div class="bar-label">DOT</div>
+                  <div class="bar-value">+1.5%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Analysis Section -->
+    <section id="live-analysis" class="live-analysis">
+      <div class="section-header scroll-reveal">
+        <h2>Live Market Intelligence</h2>
+        <p>Real-time analysis of breaking news and its predicted impact on cryptocurrency markets</p>
+      </div>
+      <div class="live-container">
+        <div class="news-feed scroll-reveal">
+          <div class="news-feed-header">
+            <h3><i class="fas fa-satellite-dish"></i> Live News Feed</h3>
+            <div class="last-updated">
+              <i class="fas fa-sync-alt"></i>
+              Updated just now
+            </div>
+          </div>
+          <div class="news-items">
+            <div class="news-item" data-sentiment="positive">
+              <div class="news-header">
+                <div class="news-source">
+                  <i class="fab fa-bitcoin"></i>
+                  CoinDesk
+                </div>
+                <div class="news-time">2 min ago</div>
+              </div>
+              <div class="news-title">Major Financial Institution Announces Bitcoin ETF Approval</div>
+              <div class="news-sentiment">
+                <div class="sentiment-badge positive">
+                  <i class="fas fa-arrow-up"></i>
+                  Strong Positive (94%)
+                </div>
+              </div>
+            </div>
+            <div class="news-item" data-sentiment="negative">
+              <div class="news-header">
+                <div class="news-source">
+                  <i class="fas fa-newspaper"></i>
+                  Reuters
+                </div>
+                <div class="news-time">15 min ago</div>
+              </div>
+              <div class="news-title">Regulatory Concerns Rise as Crypto Market Expands Globally</div>
+              <div class="news-sentiment">
+                <div class="sentiment-badge negative">
+                  <i class="fas fa-arrow-down"></i>
+                  Moderate Negative (76%)
+                </div>
+              </div>
+            </div>
+            <div class="news-item" data-sentiment="positive">
+              <div class="news-header">
+                <div class="news-source">
+                  <i class="fas fa-chart-bar"></i>
+                  Bloomberg
+                </div>
+                <div class="news-time">32 min ago</div>
+              </div>
+              <div class="news-title">Ethereum Upgrade Successfully Implemented, Reducing Fees by 30%</div>
+              <div class="news-sentiment">
+                <div class="sentiment-badge positive">
+                  <i class="fas fa-arrow-up"></i>
+                  Strong Positive (89%)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="market-overview scroll-reveal">
+          <div class="overview-header">
+            <h4>Market Overview</h4>
+            <div class="market-status positive">
+              <i class="fas fa-arrow-up"></i>
+              Bullish
+            </div>
+          </div>
+          <div class="market-metrics">
+            <div class="market-metric">
+              <div class="metric-name">Fear & Greed Index</div>
+              <div class="metric-value">74 (Greed)</div>
+            </div>
+            <div class="market-metric">
+              <div class="metric-name">Total Market Cap</div>
+              <div class="metric-value">$1.72T <span class="positive">+2.4%</span></div>
+            </div>
+            <div class="market-metric">
+              <div class="metric-name">BTC Dominance</div>
+              <div class="metric-value">48.3% <span class="negative">-0.8%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+      <div class="section-header scroll-reveal">
+        <h2>Experience AI Analysis</h2>
+        <p>Test our AI with any news headline to see real-time market impact predictions</p>
+      </div>
+      <div class="demo-container">
+        <div class="demo-card scroll-reveal">
+          <div class="demo-input">
+            <h3><i class="fas fa-newspaper"></i> Enter News Headline</h3>
+            <div class="input-group">
+              <input type="text" id="news-input" placeholder="Paste a crypto-related news headline here..." value="Bitcoin adoption surges as major retailer announces crypto payments">
+              <button class="btn btn-primary" id="analyze-btn">
+                <i class="fas fa-search"></i>
+                Analyze Sentiment
+              </button>
+            </div>
+          </div>
+          <div class="demo-output">
+            <div class="output-header">
+              <h4><i class="fas fa-chart-pie"></i> Prediction Result</h4>
+              <div class="confidence-score">87% Confidence</div>
+            </div>
+            <div class="prediction-result">
+              <div class="prediction-value positive">
+                +2.8%
+                <div class="prediction-label">Predicted BTC Movement</div>
+              </div>
+              <div class="sentiment-breakdown">
+                <div class="breakdown-item">
+                  <div class="breakdown-label">Sentiment Score</div>
+                  <div class="breakdown-value positive">+0.84</div>
+                </div>
+                <div class="breakdown-item">
+                  <div class="breakdown-label">Market Impact</div>
+                  <div class="breakdown-value">High</div>
+                </div>
+                <div class="breakdown-item">
+                  <div class="breakdown-label">Timeframe</div>
+                  <div class="breakdown-value">24-48 hours</div>
+                </div>
+              </div>
+            </div>
+            <div class="analysis-explanation">
+              <p><strong>Analysis:</strong> Based on historical patterns, positive adoption news from major retailers typically leads to short-term price increases of 2-4% within 24-48 hours. Similar events in the past have shown consistent positive correlation with BTC price movements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="cta-container scroll-reveal">
+        <h2>Start Predicting Market Movements Today</h2>
+        <p>Join thousands of professional traders and institutions using our AI to anticipate cryptocurrency price changes based on real-time news sentiment analysis</p>
+        <div class="cta-buttons">
+          <a href="#" class="btn btn-primary">
+            <i class="fas fa-rocket"></i>
+            Get Started Free
+          </a>
+          <a href="#" class="btn btn-secondary">
+            <i class="fas fa-calendar"></i>
+            Book Demo
+          </a>
+        </div>
+        <div class="cta-features">
+          <div class="feature">
+            <i class="fas fa-shield-check"></i>
+            <span>No credit card required</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-clock"></i>
+            <span>14-day free trial</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-headset"></i>
+            <span>24/7 support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo" aria-label="CryptoNews AI Footer Logo">
+            <div class="logo-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            CryptoNews AI
+          </a>
+          <p>Advanced AI-powered cryptocurrency market sentiment analysis using machine learning and natural language processing.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#sentiment-analysis">Analysis</a></li>
+            <li><a href="#live-analysis">Live Feed</a></li>
+            <li><a href="#demo">Demo</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Partners</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">API Access</a></li>
+            <li><a href="#">Market Research</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Status</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Stay Updated</h4>
+          <p>Get the latest market insights and product updates</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+            <button class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 CryptoNews AI. All rights reserved. This is not financial advice.</p>
+        <div class="footer-legals">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Disclaimer</a>
+          <a href="#">Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

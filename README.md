@@ -174,7 +174,7 @@ We're always looking for new ideas! Please create an issue with:
 
 ## 🏆 Contributors
 
-<a href="https://github.com/yourusername/crypto-ai-agent/graphs/contributors">
+<a href="https://github.com/Sagar-Singh-Airee/crypto-ai-agent/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=yourusername/crypto-ai-agent" />
 </a>
 
@@ -187,14 +187,12 @@ We're always looking for new ideas! Please create an issue with:
 
 ## 🌐 Live Demo
 
+Fellow coders--> I am having truble with making things in Live demo hope you can make that!
+
 - **Frontend**: [https://crypto-ai-agent.netlify.app](https://crypto-ai-agent.netlify.app)
 - **Backend API**: [https://crypto-ai-backend.railway.app](https://crypto-ai-backend.railway.app)
 - **API Documentation**: [https://crypto-ai-backend.railway.app/docs](https://crypto-ai-backend.railway.app/docs)
 - **Admin Dashboard**: [https://crypto-ai-backend.railway.app/admin](https://crypto-ai-backend.railway.app/admin)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -205,10 +203,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Documentation**: [GitHub Wiki](https://github.com/yourusername/crypto-ai-agent/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/crypto-ai-agent/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/crypto-ai-agent/discussions)
-- **Email**: your-email@example.com
+- **Documentation**: [GitHub Wiki](https://github.com/Sagar-Singh-Airee/crypto-ai-agent/wiki)
+- **Issues**: [GitHub Issues](https://github.com/Sagar-Singh-Airee/crypto-ai-agent/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Sagar-Singh-Airee/crypto-ai-agent/discussions)
+- **Email**: your->acrejz@gmail.com
 
 ## ⚡ Quick Deployment
 
@@ -235,8 +233,8 @@ npm run build
 
 **Built with ❤️ for the crypto community**
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/SagarSinghAiree)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagar-singh-58a578386/)
 
 </div>
 

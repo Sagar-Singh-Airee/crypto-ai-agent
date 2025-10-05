@@ -172,12 +172,6 @@ We're always looking for new ideas! Please create an issue with:
 2. **Use case** and benefits
 3. **Potential implementation** ideas
 
-## 🏆 Contributors
-
-<a href="https://github.com/Sagar-Singh-Airee/crypto-ai-agent/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yourusername/crypto-ai-agent" />
-</a>
-
 ## 📈 Performance Metrics
 
 - **Prediction Accuracy**: 87.3%
@@ -206,7 +200,7 @@ Fellow coders--> I am having truble with making things in Live demo hope you can
 - **Documentation**: [GitHub Wiki](https://github.com/Sagar-Singh-Airee/crypto-ai-agent/wiki)
 - **Issues**: [GitHub Issues](https://github.com/Sagar-Singh-Airee/crypto-ai-agent/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/Sagar-Singh-Airee/crypto-ai-agent/discussions)
-- **Email**: your->acrejz@gmail.com
+- **Email**:acrejz@gmail.com
 
 ## ⚡ Quick Deployment
 
